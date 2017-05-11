@@ -5,6 +5,7 @@ function pastry_quiz_menu() {
     'page callback' => 'drupal_get_form',
     'page arguments' => array('start_form'),
     'type' => MENU_NORMAL_ITEM,
+    'menu' => 'navigation',
 );
 
   $items['quiz_question_1'] = array(
